@@ -1,0 +1,89 @@
+*
+		{
+			margin: 0;
+			padding: 0;
+		}
+		.header
+		{
+			width: 100%;
+			height: 30px;
+			background-color: black;
+			padding: 20px;
+		}
+		h1
+		{
+			font-family: sans-serif;
+			letter-spacing: 3px;
+			color: white;
+		}
+		.header nav
+		{
+			/*border:1px solid red;*/
+			position: absolute;
+			top: 30px;
+			left: 300px;
+			color: white;
+			padding: 0px 20px;
+			padding-top: 5px;
+			margin-left: 300px;
+		}
+		.header nav ul li
+		{
+			display: inline-block;
+			margin-left: 30px;
+			margin-right: 50px;
+			font-size: 20px; 
+			font-family: sans-serif;
+			/*background-color: blue;*/
+		}
+		.header nav ul li:hover
+		{
+			border-bottom: 1px solid red;
+			cursor: pointer;
+		}
+		.container
+		{
+			max-width: 100%;
+			height: auto;
+			margin-top: 30px;
+			margin-left: 200px;
+			position: absolute;
+			padding: 10px;
+		}
+		.container .post
+		{
+			width: 60%;
+			height: 60%;			
+		}
+		.container .post img
+		{
+			max-width: 100%;
+			height: auto;
+			box-shadow: 1px 1px 20px 1px;
+		}
+		.container .content
+		{
+			width: 80%;
+			height: auto;
+			/*border:1px solid red;*/
+			font-family: sans-serif;
+			font-size: 20px;
+			margin-top: 10px;
+			overflow: hidden;
+			text-align: justify;
+  			text-justify: inter-word;
+		}
+		.container .date-content
+		{
+			height: auto;
+			/*border:1px solid red;*/
+			font-family: sans-serif;
+			font-size: 20px;
+			overflow: hidden;	
+			margin-top: 10px;
+		}
+		.container .date-content p
+		{
+			float: left;
+			color: dodgerblue;
+		}
